@@ -3,5 +3,5 @@ export default interface PokemonCard {
     mainImage: string;
     pokemonName: string;
     pokemonType: string[];
- }
- 
+  }
+  
