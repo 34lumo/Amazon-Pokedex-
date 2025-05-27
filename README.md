@@ -1,6 +1,7 @@
-# 🧬 Amazon Pokédex – Fullstack Serverless Pokémon App
+#  Amazon Pokédex – Fullstack Serverless Pokémon App
 
 Welcome to **Amazon Pokédex**, a fullstack web application built from scratch using modern web technologies and AWS serverless services.
+This project was developed in the University Engagement Program by Amazon.
 
 ---
 
@@ -10,15 +11,15 @@ Welcome to **Amazon Pokédex**, a fullstack web application built from scratch u
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 This application allows users to view a list of Pokémon and access detailed pages for each, displaying images, type, stats, and evolution data. It was built during the **Amazon Engagement Program – Software Developer Track** over a two-day hands-on workshop using tools like **React**, **Next.js**, **AWS Lambda**, **API Gateway**, **DynamoDB**, and **AWS Amplify**.
 
 ---
 
-## 🛠️ Technologies & Tools Used
+##  Technologies & Tools Used
 
-### ⚙️ Frontend
+###  Frontend
 
 - **Next.js 15** – React framework with App Router
 - **TypeScript** – For static typing and robust components
@@ -26,7 +27,7 @@ This application allows users to view a list of Pokémon and access detailed pag
 - **AWS Amplify Hosting** – Static site hosting for production
 - **Client-side components** – Marked with `"use client"`
 
-### ☁️ Backend (Serverless)
+###  Backend (Serverless)
 
 - **AWS Lambda** – Functions for listing and retrieving Pokémon from DynamoDB
 - **Amazon API Gateway** – Public endpoint exposure (`/pokemon` and `/pokemon/{id}`)
@@ -34,7 +35,7 @@ This application allows users to view a list of Pokémon and access detailed pag
 - **AWS SAM** – For automated backend deployment
 - **IAM Policies** – Managed permissions for secure DynamoDB access
 
-### 🧰 Dev & Deployment
+###  Dev & Deployment
 
 - **AWS Amplify** – CI/CD with GitHub integration
 - **GitHub** – Version control and source code storage
@@ -44,7 +45,7 @@ This application allows users to view a list of Pokémon and access detailed pag
 
 ---
 
-## 📚 What I Learned
+##  What I Learned
 
 - Setting up a fullstack Next.js + TypeScript app from scratch
 - Creating reusable React components like `PokemonCardComp`, `PokemonTypeBadgeComp`, `PokemonsComp`
