@@ -4,7 +4,7 @@ Welcome to **Amazon Pokédex**, a fullstack web application built from scratch u
 
 ---
 
-## 📸 Preview
+##Home preview
 
 ![App Screenshot](./public/pokedex-preview.png)
 
