@@ -1,15 +1,14 @@
-import type { NextConfig } from 'next';
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   async rewrites() {
     return [
       {
         source: '/api/pokemon',
-        destination: 'https://<TU_BACKEND_URL>/Prod/pokemon',
+        destination: 'https://rpr35yaoze.execute-api.eu-west-2.amazonaws.com/Prod/pokemon',
       },
       {
         source: '/api/pokemon/:id',
-        destination: 'https://<TU_BACKEND_URL>/Prod/pokemon/:id',
+        destination: 'https://rpr35yaoze.execute-api.eu-west-2.amazonaws.com/Prod/pokemon/:id',
       },
     ];
   },
